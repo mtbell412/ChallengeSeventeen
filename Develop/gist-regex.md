@@ -1,10 +1,13 @@
-# Title (replace with your title)
+# Regular Expressions defined
 
-Introductory paragraph (replace this with your text)
+The following gist was created to provide a brief summary of regular expressions and how they work in different contexts. 
+
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+For this tutorial we are going to focus on how to use a regular expression for a URL
+
+Matching a URL – /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
 ## Table of Contents
 
@@ -18,6 +21,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
+ The following components are included when matching a URL
 
 ### Anchors
 
